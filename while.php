@@ -9,12 +9,12 @@ while ($attempts < $maxAttempts) {
     $guess = trim(fgets(STDIN));
     $attempts++;
 
-if ($guess == $secret) {
-    echo "Correct! You've unlocked the treasure.\n";
-    break;
-}elseif ($attempts == $maxAttempts) {
-    echo "Out of attempts! The treasure remains locked. :lock\n";
-}else {
-    echo "Wrong! Try again. Attempts left: ':smile'" . ($maxAttempts - $attempts) . "\n";
-}
+    if ($guess == $secret) {
+        echo "Correct! You've unlocked the treasure.\n";
+        break;
+    }elseif ($attempts == $maxAttempts) {
+        echo "Out of attempts! The treasure remains locked. :lock\n";
+    }else {
+        echo "Wrong! Try again. Attempts left: ':smile'" . ($maxAttempts - $attempts) . "\n";
+    }
 }
