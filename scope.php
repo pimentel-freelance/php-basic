@@ -4,8 +4,10 @@ $superhero = "Superman";
 
 function revealIdentity() {
     global $superhero;
-    echo "$superhero real name is Clark Kent\n";
+    $message = "real name is Clark Kent\n";
     // $superhero = "Spiderman";
+    echo "$superhero $message";
+    
 }
 
 revealIdentity();
