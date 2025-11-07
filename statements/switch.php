@@ -15,6 +15,7 @@ switch ($size) {
         echo "Unknown size\n";        
 }
 
+
 $badAttempts = 2;
 
 switch ($badAttempts) {

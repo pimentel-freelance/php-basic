@@ -5,6 +5,7 @@ if ($x > 5) {
     echo "X is greater than 5\n";
 }
 
+
 $score = 60;
 if ($score >= 90) {
     echo "A\n";
@@ -18,6 +19,7 @@ if ($score >= 90) {
     echo "F\n";
 }
 
+
 $num = 14;
 if ($num > 0){
     if ($num % 2 == 0){
@@ -28,6 +30,7 @@ if ($num > 0){
 }else {
     echo "Non-positive number\n";
 }
+
 
 $username = "admin";
 $password = "password123";
