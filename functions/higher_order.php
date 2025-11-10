@@ -1,6 +1,6 @@
 <?php 
 
-// Higher order function
+// Higher order functions
 function apply($op, $a, $b) {
     return $op($a, $b);
 }
