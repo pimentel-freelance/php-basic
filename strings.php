@@ -2,13 +2,13 @@
 
 $name = "Anthony";
 
-echo "Hello, $name!\n";
 echo 'Hello, $name!\n';
+echo "Hello, $name!\n";
 
 // Multi-line string
 $heredoc = <<<EOD
 Multi-line string
-with variable $name
+with variable $name \n
 EOD;
 
 $nowdoc = <<<'EOD'
