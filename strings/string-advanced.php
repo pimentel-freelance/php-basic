@@ -12,5 +12,4 @@ var_dump(htmlentities($html));
 
 $encoded = base64_encode("Hello World!");
 var_dump($encoded);
-
 var_dump(base64_decode($encoded));
