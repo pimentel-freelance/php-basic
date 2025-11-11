@@ -12,7 +12,7 @@ $fruits = explode(",", $csv);
 var_dump($fruits, implode(", ", $fruits));
 
 
-$padded = str_pad("Hello", 20, '-', STR_PAD_BOTH);
+$padded = str_pad("Hello", 21, '-', STR_PAD_BOTH);
 echo $padded;
 
 
