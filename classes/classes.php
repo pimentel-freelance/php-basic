@@ -1,5 +1,7 @@
 <?php 
 
+//Class -> Tesla Y
+//Object -> My Tesla Y or Your Tesla Y
 class Person {
     public function __construct(
         public string $name,
