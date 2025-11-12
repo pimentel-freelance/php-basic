@@ -21,7 +21,7 @@ var_dump($associativeArray);
 asort($associativeArray); //sorting by value
 var_dump($associativeArray);
 
-ksort($associativeArray); //sorting by keys alphabetcally
+ksort($associativeArray); //sorting by keys alphabetically
 var_dump($associativeArray);
 
 $associativeArray['country'] = 'USA';
