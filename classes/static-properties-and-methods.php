@@ -9,6 +9,7 @@ class MathUtils {
 }
 
 //Expensive resources. Singleton
+//late static binding
 class Connection {
     private static $instance = null;
     private function __construct() {}
@@ -21,7 +22,10 @@ class Connection {
     }
 }
 
-$connection = Connection::singleton();
+//without static
+// $connection = new Connection();
+// $connection->singleton();
+$connection = Connection::singleton(); //with static
 
 // var_dump(
 //     MathUtils::$pi,
