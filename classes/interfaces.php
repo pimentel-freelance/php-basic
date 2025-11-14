@@ -32,7 +32,7 @@ abstract class OnlinePaymentProcessor implements PaymentProcessor {
     }
 }
 
-class StripeProcessor extends OnlinePaymentProcessor {
+class StripeProcessor extends OnlinePaymentProcessor {  
     protected function validateApiKey(): bool {
         return strpos($this->apiKey, 'sk_') === 0;
     }
