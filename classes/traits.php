@@ -10,7 +10,7 @@ trait loggable {
     }
 }
 
-class User implements logger {
+class User {
 
     use Loggable;
     public function __construct(public string $name)
